@@ -1,0 +1,341 @@
+﻿1@{
+	ViewData["Title"] = "Home Page";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+	<title>Desktop - 1</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inknut+Antiqua%3A500" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JejuHallasan%3A400" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A300%2C400%2C500%2C600" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C500%2C600%2C700" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inria+Serif%3A700" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Itim%3A400" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lacquer%3A400" />
+	<link rel="stylesheet" href="./css/desktop-1.css" />
+</head>
+	<body>
+		<div class="desktop-1-L4m" style="width:1600px">
+			<div class="auto-group-8wcq-Fb3">
+				<div class="group-1-9iM">
+					<div class="auto-group-xxnq-xvh">
+						<p class="home-4D3">HOME</p>
+						<img class="pink-cupcake-bakery-logo-template-made-with-postermywall-1-5tq" src="./assets/pink-cupcake-bakery-logo-template-made-with-postermywall-1-SW9.png" />
+					</div>
+					<p class="about-us-MLZ">ABOUT US</p>
+					<p class="products-4Ey">PRODUCTS</p>
+					<p class="contact-us-aDK">CONTACT US</p>
+				</div>
+				<div class="home-UZb">
+					<img class="pink-cupcake-bakery-logo-template-made-with-postermywall-1-1ZX" src="./assets/pink-cupcake-bakery-logo-template-made-with-postermywall-1.png" />
+					<div class="rectangle-30-421">
+					</div>
+				<div class="rectangle-31-xNH" style="height:78.2635rem">
+					</div>
+					<p class="special-cake-grab-now-V7K">Special  Cake Grab Now!</p>
+				<div class="group-21640-auT" style="left:34.3rem;">
+					<p class="home-K6M"><a href="/Home" style="text-decoration:none ; color:#FFFFFF">HOME</a></p>
+					<p class="about-us-rMB"><a href="/AboutController1" style="text-decoration:none ; color:#FFFFFF">ABOUT US</a></p>
+					<p class="products-xf7"><a href="/Product1" style="text-decoration:none ; color:#FFFFFF">PRODUCTS</a></p>
+					<p class="contact-us-g5K"><a href="ContactUs" style="text-decoration:none ; color:#FFFFFF">CONTACT US</a></p>
+				</div>
+
+
+				<div class="order-cart-cUm"><a href="/Product1" style="text-decoration:none ; color:black">ORDER NOW!</a></div>
+				@{
+					var name = Context.Session.GetString("ID");
+				}
+				@if (!string.IsNullOrEmpty(name))
+				{
+					// Your code here
+					<div class="order-cart-G3X"><a href="/Login" style="text-decoration:none ; color:#FFFFFF">Logout</a></div>
+
+
+				}
+				else
+				{
+					<div class="order-cart-G3X"><a href="/Login" style="text-decoration:none ; color:#FFFFFF">Log in</a></div>
+
+				}
+				<img class="chocolate-cake-with-dried-fruit-removebg-preview-1-L3P" src="./assets/chocolate-cake-with-dried-fruit-removebg-preview-1.png" />
+				<a href="/ViewCart">
+					<img class="cart-outline-Dss" src="./assets/cart-outline.png" alt="Cart Outline">
+				</a>
+			</div>
+		</div>
+		<div class="auto-group-fhme-Kvu">
+			<div class="feature-cat-rA9">
+				<p class="featured-category-featured-category-allows-to-display-selected-on-your-homepage-NeH">
+					<span class="featured-category-featured-category-allows-to-display-selected-on-your-homepage-NeH-sub-0">
+						FEATURED CATEGORY
+						<br />
+
+					</span>
+					<span class="featured-category-featured-category-allows-to-display-selected-on-your-homepage-NeH-sub-1">Featured category allows to display selected on your homepage</span>
+				</p>
+				<div class="auto-group-2lnp-Rnu">
+					<div class="auto-group-tfet-LQ5">
+						<div class="cart-box-Dim">
+							<img class="rectangle-21-4so" src="./assets/rectangle-21-WNR.png" />
+							<p class="chocolate-cake-BBj">Strawberry Cake</p>
+							<div class="auto-group-swtq-Vy7">
+								<img class="rupee-symbol-black-1-qGH" src="./assets/rupee-symbol-black-1-Uyb.png" />
+								<p class="item-799-zS1">799</p>
+							</div>
+						</div>
+						<a class="order-cart-Pyw" style="text-decoration:none">SHOP NOW!</a>
+					</div>
+					<div class="auto-group-mczy-SBX">
+						<div class="cart-box-P6m">
+							<img class="rectangle-21-Hxq" src="./assets/rectangle-21-fmF.png" />
+							<p class="chocolate-cake-dG1">Chocolate Cake</p>
+							<div class="auto-group-dxrc-vku">
+								<img class="rupee-symbol-black-1-eB7" src="./assets/rupee-symbol-black-1-etd.png" />
+								<a href="/CakeDetail" class="item-799-kV3" style="text-decoration:none">799</a>
+							</div>
+						</div>
+						<a  class="order-cart-TPT" style="text-decoration:none">SHOP NOW!</a>
+					</div>
+					<div class="auto-group-adde-uFT">
+						<div class="cart-box-rRb">
+							<img class="rectangle-21-yFK" src="./assets/rectangle-21-reh.png" />
+							<p class="chocolate-cake-gfX">Cup Cake</p>
+							<div class="auto-group-p7pp-R7K">
+								<img class="rupee-symbol-black-1-MWm" src="./assets/rupee-symbol-black-1-tuT.png" />
+								<a class="item-799-fXT">399</a>
+							</div>
+						</div>
+						<a  class="order-cart-PTT" style="text-decoration:none;">SHOP NOW!</a>
+					</div>
+				</div>
+				<div class="auto-group-l7lx-TTK">
+					<p class="off-on-tank-tops-lorem-ipsum-dolor-sit-amet-adipiscing-elit-proin-ac-dictum-mU1">
+						<span class="off-on-tank-tops-lorem-ipsum-dolor-sit-amet-adipiscing-elit-proin-ac-dictum-mU1-sub-0">
+							20% Off On Tank Tops
+							<br />
+
+						</span>
+						<span class="off-on-tank-tops-lorem-ipsum-dolor-sit-amet-adipiscing-elit-proin-ac-dictum-mU1-sub-1">Lorem ipsum dolor sit amet,  adipiscing elit. Proin ac dictum</span>
+					</p>
+					<p class="off-on-tank-tops-lorem-ipsum-dolor-sit-amet-adipiscing-elit-proin-ac-dictum-L3F">
+						<span class="off-on-tank-tops-lorem-ipsum-dolor-sit-amet-adipiscing-elit-proin-ac-dictum-L3F-sub-0">
+							20% Off On Tank Tops
+							<br />
+
+						</span>
+						<span class="off-on-tank-tops-lorem-ipsum-dolor-sit-amet-adipiscing-elit-proin-ac-dictum-L3F-sub-1">Lorem ipsum dolor sit amet,  adipiscing elit. Proin ac dictum</span>
+					</p>
+					<p class="off-on-tank-tops-lorem-ipsum-dolor-sit-amet-adipiscing-elit-proin-ac-dictum-CDs">
+						<span class="off-on-tank-tops-lorem-ipsum-dolor-sit-amet-adipiscing-elit-proin-ac-dictum-CDs-sub-0">
+							20% Off On Tank Tops
+							<br />
+
+						</span>
+						<span class="off-on-tank-tops-lorem-ipsum-dolor-sit-amet-adipiscing-elit-proin-ac-dictum-CDs-sub-1">Lorem ipsum dolor sit amet,  adipiscing elit. Proin ac dictum</span>
+					</p>
+				</div>
+			</div>
+			<div class="about-us-eVB">
+				<p class="welcome-to-the-cake-counter-baking-is-our-passion-and-we-celebrate-being-part-of-your-happy-moments-its-a-one-stop-shop-for-delightful-cakes-irresistible-pastries-baked-to-perfection-biscuits-cookies-mouth-watering-chocolates-both-home-made-and-imported-from-far-and-wide-huge-variety-and-choices-of-goodies-offers-a-treat-to-everyone-great-taste-blended-with-lots-of-love-is-our-perfect-recipe-to-bring-smiles-on-the-faces-of-our-dear-and-loyal-customers-we-just-do-not-sell-we-build-relationships-our-goodies-give-plenty-of-reasons-to-be-happy-and-indulge-in-merriment-LN1">
+					<span class="welcome-to-the-cake-counter-baking-is-our-passion-and-we-celebrate-being-part-of-your-happy-moments-its-a-one-stop-shop-for-delightful-cakes-irresistible-pastries-baked-to-perfection-biscuits-cookies-mouth-watering-chocolates-both-home-made-and-imported-from-far-and-wide-huge-variety-and-choices-of-goodies-offers-a-treat-to-everyone-great-taste-blended-with-lots-of-love-is-our-perfect-recipe-to-bring-smiles-on-the-faces-of-our-dear-and-loyal-customers-we-just-do-not-sell-we-build-relationships-our-goodies-give-plenty-of-reasons-to-be-happy-and-indulge-in-merriment-LN1-sub-0">
+						WELCOME TO THE CAKE COUNTER
+						<br />
+
+						<br />
+
+					</span>
+					<span class="welcome-to-the-cake-counter-baking-is-our-passion-and-we-celebrate-being-part-of-your-happy-moments-its-a-one-stop-shop-for-delightful-cakes-irresistible-pastries-baked-to-perfection-biscuits-cookies-mouth-watering-chocolates-both-home-made-and-imported-from-far-and-wide-huge-variety-and-choices-of-goodies-offers-a-treat-to-everyone-great-taste-blended-with-lots-of-love-is-our-perfect-recipe-to-bring-smiles-on-the-faces-of-our-dear-and-loyal-customers-we-just-do-not-sell-we-build-relationships-our-goodies-give-plenty-of-reasons-to-be-happy-and-indulge-in-merriment-LN1-sub-1">
+						Baking is our passion and we celebrate being part of your happy moments. It&#39;s a one stop shop for delightful cakes, irresistible pastries, baked to perfection biscuits &amp; cookies, mouth watering chocolates both home-made and imported from far and wide. Huge variety and choices of goodies offers a treat to everyone.
+						<br />
+						Great taste blended with lots of love is our perfect recipe to bring smiles on the faces of our dear and loyal customers. We just do not sell, we build relationships. Our goodies give plenty of reasons to be happy and indulge in merriment.
+					</span>
+				</p>
+				<img class="item-2150735012-eSZ" src="./assets/xyz.png" />
+				<p class="about-our-shop-Jn1">About Our Shop</p>
+			</div>
+			@* <div class="products-azR">
+				<p class="our-products-Upu">
+					<span class="our-products-Upu-sub-0">
+						OUR PRODUCTS
+						<br />
+
+					</span>
+					<span class="our-products-Upu-sub-1">
+
+						<br />
+
+					</span>
+				</p>
+				<div class="auto-group-aflg-CuK">
+					<div class="cart-box-hLH">
+						<img class="rectangle-21-C29" src="./assets/rectangle-21.png" />
+						<p class="chocolate-cake-XaD">Chocolate Cake</p>
+						<div class="auto-group-yx7z-d7T">
+							<img class="rupee-symbol-black-1-jRP" src="./assets/rupee-symbol-black-1-35F.png" />
+							<p class="item-799-TcH">799</p>
+						</div>
+					</div>
+					<div class="cart-box-Mhf">
+						<img class="rectangle-21-UGV" src="./assets/rectangle-21-R3b.png" />
+						<p class="chocolate-cake-DE5">Chocolate Cake</p>
+						<div class="auto-group-tnzi-LZb">
+							<img class="rupee-symbol-black-1-eqB" src="./assets/rupee-symbol-black-1-6mK.png" />
+							<p class="item-799-z8M">799</p>
+						</div>
+					</div>
+					<div class="cart-box-3sK">
+						<img class="rectangle-21-asF" src="./assets/rectangle-21-zxV.png" />
+						<p class="chocolate-cake-885">Chocolate Cake</p>
+						<div class="auto-group-cunk-SPf">
+							<img class="rupee-symbol-black-1-ZUH" src="./assets/rupee-symbol-black-1-adT.png" />
+							<p class="item-799-Vcq">799</p>
+						</div>
+					</div>
+					<div class="cart-box-QUu">
+						<img class="rectangle-21-LNZ" src="./assets/rectangle-21-bcZ.png" />
+						<p class="chocolate-cake-sdP">Chocolate Cake</p>
+						<div class="auto-group-8fic-omw">
+							<img class="rupee-symbol-black-1-kBP" src="./assets/rupee-symbol-black-1-L7w.png" />
+							<p class="item-799-TLh">799</p>
+						</div>
+					</div>
+				</div>
+				<div class="auto-group-bcsg-NTf">
+					<div class="cart-box-tB7">
+						<img class="rectangle-21-zV3" src="./assets/rectangle-21-nPP.png" />
+						<p class="chocolate-cake-t4d">Chocolate Cake</p>
+						<div class="auto-group-q66y-Qof">
+							<img class="rupee-symbol-black-1-9WM" src="./assets/rupee-symbol-black-1-YSZ.png" />
+							<p class="item-799-4dK">799</p>
+						</div>
+					</div>
+					<div class="cart-box-zms">
+						<img class="rectangle-21-jUZ" src="./assets/rectangle-21-aay.png" />
+						<p class="chocolate-cake-US9">Chocolate Cake</p>
+						<div class="auto-group-ymhn-cHT">
+							<img class="rupee-symbol-black-1-vZ3" src="./assets/rupee-symbol-black-1-2XF.png" />
+							<p class="item-799-fFj">799</p>
+						</div>
+					</div>
+					<div class="cart-box-PxR">
+						<img class="rectangle-21-A61" src="./assets/rectangle-21-11F.png" />
+						<p class="chocolate-cake-u3b">Chocolate Cake</p>
+						<div class="auto-group-nfxg-2tu">
+							<img class="rupee-symbol-black-1-ZP3" src="./assets/rupee-symbol-black-1-1gh.png" />
+							<p class="item-799-fBB">799</p>
+						</div>
+					</div>
+					<div class="cart-box-nWh">
+						<img class="rectangle-21-7Yy" src="./assets/rectangle-21-ErZ.png" />
+						<p class="chocolate-cake-RpZ">Chocolate Cake</p>
+						<div class="auto-group-cprr-LRj">
+							<img class="rupee-symbol-black-1-r9B" src="./assets/rupee-symbol-black-1-uqF.png" />
+							<p class="item-799-nHj">799</p>
+						</div>
+					</div>
+				</div>
+				<div class="auto-group-czxr-Jms">
+					<div class="cart-box-bW5">
+						<img class="rectangle-21-XPj" src="./assets/rectangle-21-e85.png" />
+						<p class="chocolate-cake-q9X">Chocolate Cake</p>
+						<div class="auto-group-nrwx-XY9">
+							<img class="rupee-symbol-black-1-GVj" src="./assets/rupee-symbol-black-1-VjK.png" />
+							<p class="item-799-CuB">799</p>
+						</div>
+					</div>
+					<div class="cart-box-kA1">
+						<img class="rectangle-21-H9w" src="./assets/rectangle-21-jjj.png" />
+						<p class="chocolate-cake-C21">Chocolate Cake</p>
+						<div class="auto-group-quk8-j1w">
+							<img class="rupee-symbol-black-1-FW5" src="./assets/rupee-symbol-black-1-qRo.png" />
+							<p class="item-799-Ad3">799</p>
+						</div>
+					</div>
+					<div class="cart-box-JDT">
+						<img class="rectangle-21-RJ5" src="./assets/rectangle-21-oY9.png" />
+						<p class="chocolate-cake-AWZ">Chocolate Cake</p>
+						<div class="auto-group-5fsc-FH7">
+							<img class="rupee-symbol-black-1-yyo" src="./assets/rupee-symbol-black-1-kzZ.png" />
+							<p class="item-799-KXs">799</p>
+						</div>
+					</div>
+					<div class="cart-box-FRX">
+						<img class="rectangle-21-LSy" src="./assets/rectangle-21-VqP.png" />
+						<p class="chocolate-cake-rw7">Chocolate Cake</p>
+						<div class="auto-group-wyjz-zGd">
+							<img class="rupee-symbol-black-1-8dj" src="./assets/rupee-symbol-black-1.png" />
+							<p class="item-799-rJq">799</p>
+						</div>
+					</div>
+				</div>
+			</div> *@
+			<footer class="footer-bar-ZDF">
+				<div class="auto-group-des8-sUq">
+					<div class="auto-group-q6xl-26q">
+						<div class="auto-group-rxbv-8vZ">
+							<img class="phone-5qo" src="./assets/phone-Eny.png" />
+							<img class="mail-1jT" src="./assets/mail.png" />
+						</div>
+						<p class="address-plot-no-p207-abgate-no-1-metoda-gidc-kalawad-roadrajkotgujrat-india-360002-call-us-919714418423-email-infothecakecountercom-YjP">
+							<span class="address-plot-no-p207-abgate-no-1-metoda-gidc-kalawad-roadrajkotgujrat-india-360002-call-us-919714418423-email-infothecakecountercom-YjP-sub-0">
+								Address: Plot No P207/AB,Gate No 1, Metoda GIDC, Kalawad Road,Rajkot,Gujrat - INDIA 360002
+								<br />
+
+								<br />
+
+							</span>
+							<span class="address-plot-no-p207-abgate-no-1-metoda-gidc-kalawad-roadrajkotgujrat-india-360002-call-us-919714418423-email-infothecakecountercom-YjP-sub-1">Call Us:</span>
+							<span class="address-plot-no-p207-abgate-no-1-metoda-gidc-kalawad-roadrajkotgujrat-india-360002-call-us-919714418423-email-infothecakecountercom-YjP-sub-2">
+								+919714418423
+								<br />
+
+								<br />
+
+							</span>
+							<span class="address-plot-no-p207-abgate-no-1-metoda-gidc-kalawad-roadrajkotgujrat-india-360002-call-us-919714418423-email-infothecakecountercom-YjP-sub-3">Email</span>
+							<span class="address-plot-no-p207-abgate-no-1-metoda-gidc-kalawad-roadrajkotgujrat-india-360002-call-us-919714418423-email-infothecakecountercom-YjP-sub-4">: info@thecakecounter.com</span>
+						</p>
+						<p class="information-about-us-products-contact-us-terms-conditions-rGD">
+							<span class="information">INFORMATION</span>
+							<br>
+							<a href="/AboutController1" style="text-decoration:none; color:#595959">About Us</a>
+							<br>
+							<a href="/Product1" style="text-decoration:none; color:#595959">Products</a>
+							<br>
+							<a href="/ContactUs" style="text-decoration:none; color:#595959">Contact Us</a>
+							<br>
+							<a href="#terms-conditions" style="text-decoration:none; color:#595959">Terms & Conditions</a>
+						</p>
+					</div>
+					<div class="auto-group-6hjz-6TP">
+						<p class="newsletter-join-69000-subscribers-get-a-new-discount-coupon-every-monday-cwX">
+							<span class="newsletter">NEWSLETTER</span>
+							<br>
+							<span class="subscribers">Join 69.000+ subscribers & get a new discount coupon every Monday.</span>
+						</p>
+						<div class="email-box-hLh">
+							<div class="email-box-hLh">
+								<input type="email" placeholder="Enter Your Email" class="enter-your-email-pAR" style="border-color:white;outline: none;
+                                        height:6.4rem; width:400px;position:absolute;left:1014px;" />
+								<div class="auto-group-h1ac-9Ch" style="position:absolute; height:66px; left:1373px">
+									<img class="mail-fB3" src="./assets/mail-aHB.png" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="line-3-9M7"></div>
+				<p class="copyright-2024-the-cake-counter-inc-all-right-reserved-s2D">Copyright © 2024 The Cake Counter, Inc. All Right Reserved.</p>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
+

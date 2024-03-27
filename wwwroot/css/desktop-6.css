@@ -1,0 +1,499 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.desktop-6-Fyf {
+  box-sizing: border-box;
+  padding-top: 4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(251, 249, 249, 0.7400000095);
+}
+.desktop-6-Fyf .header-bar-bXj {
+  width: 100%;
+  height: 20rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/bg-breadcrumb-bg-3Dw.png');
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF {
+  box-sizing: border-box;
+  padding: 3.4rem 1.5rem 53.1rem 1.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R {
+  margin: 0rem 6.7rem 1.9rem 0rem;
+  height: 49.4rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-yge8-tQM {
+  margin: 2.2rem 4.1rem 0rem 0rem;
+  box-sizing: border-box;
+  padding-bottom: 9.7rem;
+  width: 32rem;
+  background-color: #e5e5e5;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-yge8-tQM .auto-group-paep-Pc1 {
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: 7.1rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #523536;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-yge8-tQM .cakes-JDB {
+  margin: 0rem 0rem 0.9rem 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-yge8-tQM .d-cakes-Rob {
+  margin: 0rem 0rem 0.7rem 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #be8658;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-yge8-tQM .birthday-cakes-gjX {
+  margin: 0rem 0rem 0.7rem 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-yge8-tQM .wedding-cakes-117 {
+  margin-left: 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 {
+  height: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .our-products-ScD {
+  margin: 0rem 33.5rem 1.5rem 0rem;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .cart-box-xKf {
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .cart-box-xKf .rectangle-21-Uoo {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .cart-box-xKf .chocolate-cake-ykZ {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .cart-box-xKf .auto-group-nbqp-ueD {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .cart-box-xKf .auto-group-nbqp-ueD .rupee-symbol-black-1-3Ed {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .cart-box-xKf .auto-group-nbqp-ueD .item-799-x6h {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .cart-box-xKf .earliest-delivery-today-5x1 {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .cart-box-xKf .earliest-delivery-today-5x1 .earliest-delivery-today-5x1-sub-0 {
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-nhuv-749 .cart-box-xKf .earliest-delivery-today-5x1 .earliest-delivery-today-5x1-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary {
+  box-sizing: border-box;
+  padding: 6.4rem 0rem 0rem 1.9rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-5yw {
+  margin-right: 1.9rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-5yw .rectangle-21-C2y {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-5yw .chocolate-cake-WJZ {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-5yw .auto-group-r5jj-SCD {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-5yw .auto-group-r5jj-SCD .rupee-symbol-black-1-Atu {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-5yw .auto-group-r5jj-SCD .item-799-gcM {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-5yw .earliest-delivery-today-DMP {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-5yw .earliest-delivery-today-DMP .earliest-delivery-today-DMP-sub-0 {
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-5yw .earliest-delivery-today-DMP .earliest-delivery-today-DMP-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-XmP {
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-XmP .rectangle-21-4FX {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-XmP .chocolate-cake-Q4V {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-XmP .auto-group-xvv2-8FP {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-XmP .auto-group-xvv2-8FP .rupee-symbol-black-1-SG5 {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-XmP .auto-group-xvv2-8FP .item-799-jW5 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-XmP .earliest-delivery-today-gRK {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-XmP .earliest-delivery-today-gRK .earliest-delivery-today-gRK-sub-0 {
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-tcfn-n6R .auto-group-ntpv-Ary .cart-box-XmP .earliest-delivery-today-gRK .earliest-delivery-today-gRK-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 {
+  margin: 0rem 39.6rem 0rem 37.5rem;
+  width: calc(100% - 77.1rem);
+  height: 43rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-mLH {
+  margin-right: 1.9rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-mLH .rectangle-21-fgZ {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-mLH .chocolate-cake-CwP {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-mLH .auto-group-rmnu-v6h {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-mLH .auto-group-rmnu-v6h .rupee-symbol-black-1-eoP {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-mLH .auto-group-rmnu-v6h .item-799-aBF {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-mLH .earliest-delivery-today-uDX {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-mLH .earliest-delivery-today-uDX .earliest-delivery-today-uDX-sub-0 {
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-mLH .earliest-delivery-today-uDX .earliest-delivery-today-uDX-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-TPT {
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-TPT .rectangle-21-ngd {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-TPT .chocolate-cake-LCM {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-TPT .auto-group-r3v6-rwP {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-TPT .auto-group-r3v6-rwP .rupee-symbol-black-1-nKF {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-TPT .auto-group-r3v6-rwP .item-799-VjT {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-TPT .earliest-delivery-today-FCq {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-TPT .earliest-delivery-today-FCq .earliest-delivery-today-FCq-sub-0 {
+}
+.desktop-6-Fyf .auto-group-gxqg-SoF .auto-group-64t4-SJ1 .cart-box-TPT .earliest-delivery-today-FCq .earliest-delivery-today-FCq-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}

@@ -1,0 +1,53 @@
+﻿@model Cake_Shope.Models.UserDetails;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Desktop - 9</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C500%2C700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C700" />
+    <link rel="stylesheet" href="./css/desktop-9.css" />
+</head>
+<body>
+    <form asp-controller="Register" asp-action="Index">
+    <div class="desktop-9-Rnd" style="width:1600px">
+            <div class="log-in-btn-NC5"> <a href="/Login" style="text-decoration:none ; color:#FFFFFF">Log in</a> </div>
+
+            <div class="fname-input-box-cs7"><input type="text" name="fname" asp-for="fname" id="fname" placeholder="Enter Your First Name" style="border-color:white;outline: none ; height:3.4rem; width:550px"></div>
+            <div class="fname-input-box-RZf"><input type="text" name="lname" asp-for="lname" id="lname" placeholder="Enter Your Last Name" style="border-color:white;outline: none ; height:3.4rem; width:550px" /></div>
+            <div class="fname-input-box-GKP"> <input type="email" name="email" asp-for="email" id="email" placeholder="Enter Your Email" style="border-color:white;outline: none ; height:3.4rem; width:550px"></div>
+            <div class="fname-input-box-iBP"><input type="password" name="password" asp-for="password" id="password" placeholder="Enter Your Password" style="border-color:white;outline: none ; height:3.4rem; width:550px" /></div>
+          <button class="sign-up-btn-Zho"  type="submit"style="font-size:3rem">Sign Up</button>
+        <p class="lets-create-account-fill-up-the-below-details-to-create-account-2bP">
+            <span class="lets-create-account-fill-up-the-below-details-to-create-account-2bP-sub-0">
+                Let's Create Account!
+                <br />
+            </span>
+            <span class="lets-create-account-fill-up-the-below-details-to-create-account-2bP-sub-1">Fill up the below details to create account</span>
+        </p>
+        <p class="already-have-account-log-in-uBK">
+            <span class="already-have-account-log-in-uBK-sub-0">Already have account? </span>
+            <span class="already-have-account-log-in-uBK-sub-1"><a href="/login">Log in</a></span>
+        </p>
+        <div class="dob-input-box-bCZ">
+            <div class="dob-WKX">
+                    <div class="fname-input-box-G3o"><input type="tel" name="phone" asp-for="mobile" id="phone" placeholder="Enter Your Mobile Number" style="border-color:white;outline: none ; height:3.4rem; width:550px"></div>
+               
+            </div>
+        </div>
+              </div>
+              <</form>
+
+
+       
+   
+</body>
+</html>

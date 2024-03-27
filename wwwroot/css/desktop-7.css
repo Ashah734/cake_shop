@@ -1,0 +1,499 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.desktop-7-P8Z {
+  box-sizing: border-box;
+  padding-top: 4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(252, 250, 250, 0.75);
+}
+.desktop-7-P8Z .header-bar-huw {
+  width: 100%;
+  height: 20rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/bg-breadcrumb-bg-DEu.png');
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT {
+  box-sizing: border-box;
+  padding: 3.4rem 1.5rem 53.1rem 1.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts {
+  margin: 0rem 6.7rem 1.9rem 0rem;
+  height: 49.4rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-fqya-3kq {
+  margin: 2.2rem 4.1rem 0rem 0rem;
+  box-sizing: border-box;
+  padding-bottom: 9.7rem;
+  width: 32rem;
+  background-color: #e5e5e5;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-fqya-3kq .auto-group-7kqe-kv9 {
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: 7.1rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #523536;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-fqya-3kq .cakes-Doj {
+  margin: 0rem 0rem 0.9rem 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-fqya-3kq .d-cakes-k2y {
+  margin: 0rem 0rem 0.7rem 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-fqya-3kq .birthday-cakes-4pM {
+  margin: 0rem 0rem 0.7rem 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #be8658;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-fqya-3kq .wedding-cakes-oG9 {
+  margin-left: 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq {
+  height: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .our-products-MBB {
+  margin: 0rem 0.5rem 1.5rem 0rem;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .cart-box-5N5 {
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .cart-box-5N5 .rectangle-21-CBo {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .cart-box-5N5 .chocolate-cake-7pZ {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .cart-box-5N5 .auto-group-jwbi-eJh {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .cart-box-5N5 .auto-group-jwbi-eJh .rupee-symbol-black-1-yLy {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .cart-box-5N5 .auto-group-jwbi-eJh .item-799-hGy {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .cart-box-5N5 .earliest-delivery-today-Ryf {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .cart-box-5N5 .earliest-delivery-today-Ryf .earliest-delivery-today-Ryf-sub-0 {
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-4sex-7Gq .cart-box-5N5 .earliest-delivery-today-Ryf .earliest-delivery-today-Ryf-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH {
+  box-sizing: border-box;
+  padding: 6.4rem 0rem 0rem 1.9rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-3df {
+  margin-right: 1.9rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-3df .rectangle-21-ACV {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-3df .chocolate-cake-HH7 {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-3df .auto-group-x7uw-Cus {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-3df .auto-group-x7uw-Cus .rupee-symbol-black-1-wMf {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-3df .auto-group-x7uw-Cus .item-799-Tqo {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-3df .earliest-delivery-today-zaq {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-3df .earliest-delivery-today-zaq .earliest-delivery-today-zaq-sub-0 {
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-3df .earliest-delivery-today-zaq .earliest-delivery-today-zaq-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-kCd {
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-kCd .rectangle-21-fqP {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-kCd .chocolate-cake-bj3 {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-kCd .auto-group-oasn-X6u {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-kCd .auto-group-oasn-X6u .rupee-symbol-black-1-exD {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-kCd .auto-group-oasn-X6u .item-799-NtD {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-kCd .earliest-delivery-today-7L1 {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-kCd .earliest-delivery-today-7L1 .earliest-delivery-today-7L1-sub-0 {
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-4q44-7Ts .auto-group-jdjl-irH .cart-box-kCd .earliest-delivery-today-7L1 .earliest-delivery-today-7L1-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ {
+  margin: 0rem 39.6rem 0rem 37.5rem;
+  width: calc(100% - 77.1rem);
+  height: 43rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-naZ {
+  margin-right: 1.9rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-naZ .rectangle-21-WWZ {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-naZ .chocolate-cake-3Fb {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-naZ .auto-group-zepn-kvh {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-naZ .auto-group-zepn-kvh .rupee-symbol-black-1-VNV {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-naZ .auto-group-zepn-kvh .item-799-27X {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-naZ .earliest-delivery-today-ZdF {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-naZ .earliest-delivery-today-ZdF .earliest-delivery-today-ZdF-sub-0 {
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-naZ .earliest-delivery-today-ZdF .earliest-delivery-today-ZdF-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-hcy {
+  box-sizing: border-box;
+  padding: 0.8rem 1rem 1.7rem 1rem;
+  width: 31rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-hcy .rectangle-21-dWd {
+  margin-bottom: 1.6rem;
+  width: 29rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.2rem;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-hcy .chocolate-cake-mMw {
+  margin: 0rem 0rem 0.5rem 0.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-hcy .auto-group-n6b6-HbB {
+  margin: 0rem 21.3rem 0.1rem 0.6rem;
+  width: calc(100% - 21.9rem);
+  display: flex;
+  align-items: center;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-hcy .auto-group-n6b6-HbB .rupee-symbol-black-1-pLD {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-hcy .auto-group-n6b6-HbB .item-799-97b {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-hcy .earliest-delivery-today-5mw {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #d9d8d8;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-hcy .earliest-delivery-today-5mw .earliest-delivery-today-5mw-sub-0 {
+}
+.desktop-7-P8Z .auto-group-ozau-ysT .auto-group-kljq-4eZ .cart-box-hcy .earliest-delivery-today-5mw .earliest-delivery-today-5mw-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(31, 124, 124, 0.8700000048);
+  font-family: Inter, 'Source Sans Pro';
+}

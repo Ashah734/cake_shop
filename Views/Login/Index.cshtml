@@ -1,0 +1,57 @@
+﻿@model Cake_Shope.Models.UserDetails;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Desktop - 15</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C500%2C700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C700" />
+    <link rel="stylesheet" href="./css/desktop-15.css" />
+</head>
+<body>
+    <form id="loginForm" method="post">
+        <div class="desktop-15-Pk1" style="width:1600px">
+
+            <div class="log-in-btn-KtZ"><a href="/Register" style="text-decoration:none ; color:#FFFFFF; font-size:3rem">Sign Up</a> </div>
+
+            <div class="fname-input-box-Lof"> <input type="email" asp-for="email" name="email" id="email" placeholder="Enter Your Email" style="border-color:white;outline: none ; height:3.4rem; width:550px" required></div>
+            <div class="fname-input-box-Myf"> <input type="password" asp-for="password" name="password" id="password" placeholder="Enter Your Password" style="border-color:white;outline: none ; height:3.4rem; width:550px" required></div>
+            <button class="sign-up-btn-DW5" type="submit"style="font-size:3rem">Login</button>
+            <p class="welcome-back-login-to-continue-645">
+                <span class="welcome-back-login-to-continue-645-sub-0">
+                    Welcome Back!
+                    <br />
+                </span>
+                <span class="welcome-back-login-to-continue-645-sub-1">Login to continue</span>
+            </p>
+            <p class="already-have-account-sign-up-gwP">
+                <span class="already-have-account-sign-up-gwP-sub-0">Already have account?</span>
+                <span class="already-have-account-sign-up-gwP-sub-1"> </span>
+                <span class="already-have-account-sign-up-gwP-sub-2"><a href="/Register" style="color:white;">Sign Up</a></span>
+            </p>
+        </div>
+    </form>
+    @{
+        var errorMessage = TempData["ErrorMessage"] as string;
+    }
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    
+    }
+</body>
+</html>

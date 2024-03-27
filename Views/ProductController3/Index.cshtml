@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Desktop - 7</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C500%2C600" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600" />
+    <link rel="stylesheet" href="./css/desktop-7.css" />
+</head>
+<body>
+    <div class="desktop-7-P8Z" style="width:1600px">
+        <div class="header-bar-huw"><a href="/Home" style="text-decoration:none;color:white">HOME</a> &gt; COOKIE</div>
+        <div class="auto-group-ozau-ysT">
+            <div class="auto-group-4q44-7Ts">
+                <div class="auto-group-fqya-3kq">
+                    <div class="auto-group-7kqe-kv9">CATEGORIES</div>
+                    <a href="/Product1" class="cakes-Doj" style="text-decoration:none">CAKES </a> <br />
+                    <a href="/ProductController2" class="d-cakes-k2y" style="text-decoration:none">3D CAKES</a> <br />
+                    <a href="/ProductController3" class="birthday-cakes-4pM" style="text-decoration:none">BIRTHDAY CAKES</a> <br />
+                    <a href="/ProductController4" class="wedding-cakes-oG9" style="text-decoration:none">WEDDING CAKES</a>
+                </div>
+               <div class="auto-group-4sex-7Gq">
+    <p class="our-products-MBB"  style="margin-right:33.4rem">OUR PRODUCTS</p>
+    <div class="row"> <!-- Start new row -->
+        @{
+            int i = 0;
+        }
+        @foreach (Products item in Model)
+        {
+            if(i % 3 == 0 && i != 0)
+            {
+                @:</div> <!-- Close previous row -->
+                @:<div class="row"> <!-- Start new row -->
+            }
+            <div class="col-md-4"> <!-- Each product takes 4 columns out of 12 in a row -->
+                <div class="cart-box-5N5">
+                    <a href="/CakeDetail?itemid=@item.Id">
+                        <img class="rectangle-21-CBo" src="@item.Pimage" asp-append-version="true" />
+                    </a>
+                    <p class="chocolate-cake-7pZ">@item.Pname</p>
+                    <div class="auto-group-jwbi-eJh">
+                        <img class="rupee-symbol-black-1-yLy" src="./assets/rupee-symbol-black-1-VBT.png" />
+                        <p class="item-799-hGy">@item.Pprice</p>
+                    </div>
+                    <p class="earliest-delivery-today-Ryf">
+                        <span class="earliest-delivery-today-Ryf-sub-0">Earliest Delivery: </span>
+                        <span class="earliest-delivery-today-Ryf-sub-1">Today</span>
+                    </p>
+                </div>
+            </div>
+            i++;
+        }
+    </div> <!-- Close the last row -->
+</div>
+
+                @* <div class="auto-group-jdjl-irH">
+                    <div class="cart-box-3df">
+                        <a href="/CakeDetail">
+                        <img class="rectangle-21-ACV" src="./assets/rectangle-21-tbX.png" />
+                        </a>
+                        <p class="chocolate-cake-HH7">Chocolate Cake</p>
+                        <div class="auto-group-x7uw-Cus">
+                            <img class="rupee-symbol-black-1-wMf" src="./assets/rupee-symbol-black-1-4CM.png" />
+                            <p class="item-799-Tqo">799</p>
+                        </div>
+                        <p class="earliest-delivery-today-zaq">
+                            <span class="earliest-delivery-today-zaq-sub-0">Earliest Delivery: </span>
+                            <span class="earliest-delivery-today-zaq-sub-1">Today</span>
+                        </p>
+                    </div>
+                    <div class="cart-box-kCd">
+                        <a href="/CakeDetail">
+                        <img class="rectangle-21-fqP" src="./assets/rectangle-21-nqT.png" />
+                        </a>
+                        <p class="chocolate-cake-bj3">Chocolate Cake</p>
+                        <div class="auto-group-oasn-X6u">
+                            <img class="rupee-symbol-black-1-exD" src="./assets/rupee-symbol-black-1-c9s.png" />
+                            <p class="item-799-NtD">799</p>
+                        </div>
+                        <p class="earliest-delivery-today-7L1">
+                            <span class="earliest-delivery-today-7L1-sub-0">Earliest Delivery: </span>
+                            <span class="earliest-delivery-today-7L1-sub-1">Today</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="auto-group-kljq-4eZ">
+                <div class="cart-box-naZ">
+                    <a href="/CakeDetail">
+                    <img class="rectangle-21-WWZ" src="./assets/rectangle-21-jBT.png" />
+                    </a>
+                    <p class="chocolate-cake-3Fb">Chocolate Cake</p>
+                    <div class="auto-group-zepn-kvh">
+                        <img class="rupee-symbol-black-1-VNV" src="./assets/rupee-symbol-black-1-cvq.png" />
+                        <p class="item-799-27X">799</p>
+                    </div>
+                    <p class="earliest-delivery-today-ZdF">
+                        <span class="earliest-delivery-today-ZdF-sub-0">Earliest Delivery: </span>
+                        <span class="earliest-delivery-today-ZdF-sub-1">Today</span>
+                    </p>
+                </div>
+                <div class="cart-box-hcy">
+                    <a href="/CakeDetail">
+                    <img class="rectangle-21-dWd" src="./assets/rectangle-21-WN1.png" />
+                    </a>
+                    <p class="chocolate-cake-mMw">Chocolate Cake</p>
+                    <div class="auto-group-n6b6-HbB">
+                        <img class="rupee-symbol-black-1-pLD" src="./assets/rupee-symbol-black-1-933.png" />
+                        <p class="item-799-97b">799</p>
+                    </div>
+                    <p class="earliest-delivery-today-5mw">
+                        <span class="earliest-delivery-today-5mw-sub-0">Earliest Delivery: </span>
+                        <span class="earliest-delivery-today-5mw-sub-1">Today</span>
+                    </p>
+                </div>
+            </div> *@
+        </div>
+        </div>
+    </div>
+</body>
+</html>
+
